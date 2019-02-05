@@ -1,0 +1,4 @@
+id,name,title,requirement
+1,A PTY,web developer,"We need some web developers to make a website for a church. The right candidites are expected to design and implement a single page web site, which can attract people."
+2,B PTY,,"I am looking for a candidate that can help us manage the data received from our clients. We wish to store them in any popular databases (MySql, Mongo, etc.)"
+3,C PTY,"senior full stack developer",
