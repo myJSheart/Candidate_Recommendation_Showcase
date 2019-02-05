@@ -2,9 +2,9 @@
 
 ## Introduction
 
-Given a list of candidates and a list of projects, find the best candidate for every project. A [candidate](./data/candidates.csv) has an id, a name and a description on his working experience. A [project](./data/projects.csv) has an id, a name, a title (expected job of candidates) and a requirement (expected skills). The title and requirement are optional attributes.
+Given a list of candidates and a list of projects, find the best candidate for every project. A [candidate](./data/candidates.csv) has an ID, a name and a description of his working experience. A [project](./data/projects.csv) has an ID, a name, a title (the expected job of candidates) and a requirement (expected skills). The title and requirement are optional attributes.
 
-The main idea is (1) search the expected job in candidate's description and calculate corresponding bm25 score, and (2) calculate semantic similarity between candidate's description and job's requirement. We then have title scores and description scores respectively. We combine two kinds of scores and return the candidate with the maximum score.
+The main idea is (1) search the expected job in candidate's description and calculate the corresponding bm25 score, and (2) calculate semantic similarity between the candidate's description and job's requirement. We then have title scores and description scores respectively. We sum them and return the candidate with the maximum score.
 
 ## Keysteps:
 
